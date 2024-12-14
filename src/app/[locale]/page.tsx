@@ -1,6 +1,5 @@
 import {useTranslations} from 'next-intl';
 import {setRequestLocale} from 'next-intl/server';
-import PageLayout from '@/components/PageLayout';
 
 type Props = {
   params: {locale: string};
@@ -10,17 +9,14 @@ export default function IndexPage({params: {locale}}: Props) {
   // Enable static rendering
   setRequestLocale(locale);
 
-  const t = useTranslations('IndexPage');
+  const t = useTranslations('HomePage');
 
   return (
-    <PageLayout title={t('title')}>
-      <p className="max-w-[590px]">
-        {t.rich('description', {
-          code: (chunks) => (
-            <code className="font-mono text-white">{chunks}</code>
-          )
-        })}
-      </p>
-    </PageLayout>
+    <div className="scrollbar-thin relative grow flex-col overflow-y-scroll bg-gradient-to-b from-black to-cyan-950 py-4">
+      <div className="container flex flex-col items-center justify-center rounded bg-slate-800 p-4">
+        <h1 className="text-3xl font-bold text-white">{t('title')}</h1>
+        <h2 className="mt-4 text-white">{t('content introduction')}</h2>
+      </div>
+    </div>
   );
 }

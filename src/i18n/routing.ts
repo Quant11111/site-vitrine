@@ -6,10 +6,6 @@ export const routing = defineRouting({
   defaultLocale: 'en',
   pathnames: {
     '/': '/',
-    '/pathnames': {
-      en: '/pathnames',
-      fr: '/chemins'
-    },
     '/showcase': {
       en: '/showcase',
       fr: '/vitrine'
@@ -25,6 +21,10 @@ export const routing = defineRouting({
     '/getAQuote': {
       en: '/get-a-quote',
       fr: '/obtenir-un-devis'
+    },
+    '/about': {
+      en: '/about',
+      fr: '/a-propos'
     }
   }
 });

@@ -3,6 +3,14 @@
     "description": "<p>We've unfortunately encountered an error.</p><p>You can try to <retry>reload the page</retry> you were visiting.</p>",
     "title": "Something went wrong!"
   },
+  "HomePage": {
+    "description": "This is a basic example that demonstrates the usage of",
+    "title": "Welcome! Here is your 'not so local' tech handyman speaking!",
+    "content introduction": "Welcome to my personnal website. Here you may find many tools and informations I find handy. I may have crafted one or two of them and am very much willing to have feedbacks on, if you took the time to try them out, or even to look at the code. I am a software engineer selling his services as a Jack of all trades. I know about datastructures, storage, continuous deployment over private custom servers, and web-design for a good user experience.Important features for good referencement (see SEO field inside the ressource section of this website). I also come with the softskills you need as I will make sure you are part of the architecture and design process (if you don't already come up with a design and are willing to take this time). ",
+    "catchphrase": "Why looking for a team of 5 people who will spend time aguing and transmitt informations back and forth when you can hire the 10x web-master who will do a better structured job in less time?",
+    "about hook": "Wanna know more about me?",
+    "showcase hook": "wanna see what could be your interface?"
+  },
   "IndexPage": {
     "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
     "title": "next-intl example"
@@ -19,7 +27,10 @@
   },
   "Navigation": {
     "home": "Home",
-    "pathnames": "Pathnames"
+    "showcase": "Showcase",
+    "pricing": "Pricing",
+    "contact": "Contact",
+    "about": "About"
   },
   "NotFoundPage": {
     "description": "Please double-check the browser address bar or use the navigation to go to a known page.",

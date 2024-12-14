@@ -19,7 +19,10 @@
   },
   "Navigation": {
     "home": "Accueil",
-    "pathnames": "Chemins"
+    "showcase": "Vitrine",
+    "pricing": "Tarification",
+    "contact": "Contact",
+    "about": "À propos"
   },
   "NotFoundPage": {
     "description": "Veuillez vérifier l'adresse dans la barre de navigation ou utilisez la navigation pour aller à une page connue.",
